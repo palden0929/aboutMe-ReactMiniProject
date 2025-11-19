@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.main-info {
+  width: 253px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1A1B21;
+  border-radius: 10px;
+}
+
+.info {
+  width: 253px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 6px;
+}
+
+.info--image {
+  width: 250px;
+  color: #ffffff;
+  border-radius: 10px 10px 0;
+}
+
+.info--title {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.info--job {
+  color: #f3bf99;
+  font-size: 14px;
+  margin: -10px;
+}
+
+.info--website {
+  color: #f5f5f5;
+  font-size: 10.5px;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.email {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #d1d5db;
+  color: #374151;
+  font-size: 14;
+  border-radius: 6px;
+}
+
+.email--logo {
+  padding-right: 5px;
+  padding-left: 19px;
+}
+
+.linkedin {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: #5093e2;
+  color: #ffffff;
+  font-size: 14;
+  border-radius: 6px;
+}
+
+.linkedin--logo {
+  gap: 10px;
+  padding-right: 3px;
+  padding-left: 12px;
+}
+
+.about {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.about--title {
+  font-size: 16;
+  margin-bottom: 7px;
+}
+
+.about--text {
+  font-size: 10.5;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.interest {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.interest--title {
+  font-size: 16;
+  margin-bottom: 7px;
+}
+
+.interest--text {
+  font-size: 10.5;
+  font-weight: lighter;
+  margin-top: 0;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 0px 10px 10px;
+  color: #FFFFFF;
+  background-color: #161619;
+  gap: 15px;
+}
